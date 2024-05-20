@@ -1,0 +1,9 @@
+<ul ngbNav #nav="ngbNav" class="nav-tabs">
+    <li [ngbNavItem]="1">
+        <a ngbNavLink routerLink="/recipe">Recipe</a>
+    </li>
+    <li [ngbNavItem]="2">
+        <a ngbNavLink routerLink="/shopping">Shopping</a>
+    </li>
+</ul>
+<div [ngbNavOutlet]="nav" class="mt-2"></div>
